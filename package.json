@@ -1,0 +1,25 @@
+{
+  "name": "seek",
+  "version": "1.0.0",
+  "files": [
+    "lib/**/*"
+  ],
+  "description": "mi primer paquete de node",
+  "main": "lib/index.js",
+  "types": "lib/index.d.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "hello",
+    "greeter"
+  ],
+  "author": "Roberto castillo",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
