@@ -1,5 +1,5 @@
 {
-  "name": "seek",
+  "name": "greeter-my-first-package",
   "version": "1.0.0",
   "files": [
     "lib/**/*"
