@@ -6,7 +6,7 @@
   ],
   "description": "mi primer paquete de node",
   "main": "lib/index.js",
-  "types": "lib/index.d.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc",
